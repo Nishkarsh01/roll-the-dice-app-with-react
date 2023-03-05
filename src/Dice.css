@@ -1,0 +1,31 @@
+/* "StAuth10244: I Nishkarsh Dubb, 000838587 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else." */
+
+.dice {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 10px;
+  background-color: #fff;
+  margin-bottom: 3%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  color: black;
+
+}
+
+.dice:hover {
+  transform: translateY(-5px);
+  background-color: #f1f1f1;
+}
+
+.dice-face {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 80px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
